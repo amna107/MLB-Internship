@@ -1,0 +1,14 @@
+[
+    {
+        "Student_name": "Ali",
+        "Age": 20,
+        "Marks": 50.75,
+        "City": "Lahore"
+    },
+    {
+        "Student_name": "Ahmed",
+        "Age": 18,
+        "Marks": 70.75,
+        "City": "Karachi"
+    }
+]

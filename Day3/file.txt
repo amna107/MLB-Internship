@@ -1,0 +1,2 @@
+Practicing Problem 1 for Day 3.
+Appended new data to the file.
