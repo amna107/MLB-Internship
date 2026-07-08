@@ -24,17 +24,16 @@
 ## How File Handling and JSON Work Together
 JSON is just structured *text* — so under the hood, reading/writing JSON is still regular file handling, with the `json` module handling the conversion between Python objects and JSON-formatted text automatically. In this project:
 - `students` lives in memory as a Python list of dicts for the entire session (loaded once in `main()`).
-- Every add/update/delete only changes this in-memory list.
-- Saving to disk (`json.dump`) is a deliberate, separate step — the file is only ever a snapshot of whatever `students` currently holds.
+- Every add/update/delete changes this in-memory list hence , saving to disk (`json.dump`) after every change(add/update/delete).
 
 ## Challenges I Faced
 
 ### 1. Updated student wasn't showing up when viewing records
 **Symptom:** `update_student_info()` appeared to update the student correctly (the print statement showed the new data), but when checking the JSON file afterward, the old data was still there.
 
-**Root cause:** This was a **variable scope** issue. `students` was loaded as a *local* variable inside `update_student_info()`. When it called `save_in_json_file()`, that function had its own separate `students` — either an empty variable or a leftover global — completely disconnected from the updated local one. Python functions don't automatically share variables; each function has its own local scope unless data is explicitly passed in.
+**Root cause:** This was a **variable scope** issue. `students` was loaded as a *local* variable inside `update_student_info()`. When it called `save_in_json_file()`, that function had its own separate `students` — either an empty variable or a leftover global — completely disconnected from the updated local one.
 
-**Fix:** Changed `save_in_json_file()` to accept `students` as a parameter, and passed the local (already-updated) list into it explicitly: `save_in_json_file(students)`. This removed the ambiguity entirely.
+**Fix:** Changed `save_in_json_file()` to accept `students` as a parameter, and passed the local (already-updated) list into it explicitly: `save_in_json_file(students)`. 
 
 **Lesson:** Never assume two functions are looking at "the same" variable just because they share a name — pass data explicitly as arguments.
 
