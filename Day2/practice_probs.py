@@ -89,12 +89,12 @@ for i in range(no_of_subj):
 print(record)
 
 avg_marks = sum(record.values())/no_of_subj
-print(avg_marks)
+print(f"{avg_marks:.2f}")
 
 #PROBLEM 12 
 
 sentence = "This is a a sentence."
-words = sentence.split()
+words = sentence.strip().split()
 print(words)
 
 word_count = {}
