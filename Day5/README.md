@@ -1,5 +1,8 @@
 # Day 5 — Student Performance: Data Cleaning & Visualization
 
+## Project Video
+[Video link](https://drive.google.com/file/d/1JBa_0DCxCvhD7a5tYFRevbhXEj2C4Imc/view?usp=sharing)
+
 ## Overview
 This project cleans and analyzes a student performance dataset covering marks in **Python, Mathematics, Statistics, and Machine Learning (ML)**. It answers a set of analysis questions (student count, subject averages, top performers, students needing improvement, and mark distribution) and visualizes the results.
 
