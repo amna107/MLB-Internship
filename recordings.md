@@ -8,3 +8,5 @@ Day 3: [Project](https://drive.google.com/file/d/1t4Kw5Tf1AU6j-f7Q3ReRQODXE0_gxK
 Day 4: [Practice + Project](https://drive.google.com/file/d/1cmYkSOm9Mu8x3ISTx32GcL-ws-3p37Kp/view?usp=sharing)
 
 Day 5: [Project](https://drive.google.com/file/d/1JBa_0DCxCvhD7a5tYFRevbhXEj2C4Imc/view?usp=sharing)
+
+Day 6: [Project](https://drive.google.com/file/d/1nfaDDo_isdJj8lVTzxRdhzpiGxe-qgTm/view?usp=sharing)
