@@ -10,3 +10,5 @@ Day 4: [Practice + Project](https://drive.google.com/file/d/1cmYkSOm9Mu8x3ISTx32
 Day 5: [Project](https://drive.google.com/file/d/1JBa_0DCxCvhD7a5tYFRevbhXEj2C4Imc/view?usp=sharing)
 
 Day 6: [Project](https://drive.google.com/file/d/1nfaDDo_isdJj8lVTzxRdhzpiGxe-qgTm/view?usp=sharing)
+
+Day 7: [Project](https://drive.google.com/file/d/1lm0oXh9FA3Go8diP1xpNkCCvtH_Ks3H_/view?usp=sharing)
